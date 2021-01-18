@@ -86,7 +86,7 @@ p {
   color: var(--link-color);
   text-decoration: none;
 }
-/* .site-nav .link::after {
+.site-nav .link::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -100,13 +100,6 @@ p {
 .current-link.link::after,
 .site-nav .link:hover:after {
   opacity: 1;
-} */
-.site-nav .link::after {
-  content: '';
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: var(--accent-color);
 }
 .site-nav .current-link,
 .site-nav .link:hover,
