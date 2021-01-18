@@ -271,6 +271,26 @@ p {
 .work-section {
   padding-bottom: 94px;
 }
+.img-wrap {
+  position: relative;
+}
+.explanation {
+  position: absolute;
+  bottom: 0px;
+  transform: translateY(-3px);
+  width: 370px;
+  background-color: rgba(47, 48, 58, 0.8);
+  text-align: center;
+  height: 70px;
+  padding: 27px 0px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
 /* Section 3 */
 .team-section {
   background: #f5f4fa;
